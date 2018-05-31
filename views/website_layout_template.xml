@@ -9,7 +9,7 @@
 		<template id="Main Frontend Layout Inherit" inherit_id="portal.frontend_layout">
 			<xpath expr="//div[@class='navbar-header']" position="after">
 				<div class="navbar-brand fadeshow">
-					<span style="font-family: 'Microsoft Yi Baiti', Arial; font-size: 30px; vertical-align: middle;" t-field="res_company.report_header_name"/>
+					<span style="font-family: 'Montserrat', sans-serif; font-size: 30px; vertical-align: middle;" t-field="res_company.report_header_name"/>
 				</div>
 			</xpath>
 		</template>
