@@ -1,3 +1,4 @@
+  
 <odoo>
 	<data>
 		<template id="Web Assets Inherited" inherit_id="web.assets_frontend">
@@ -6,11 +7,12 @@
 			</xpath>
 		</template>
 		
-		<template id="Main Frontend Layout Inherit" inherit_id="portal.frontend_layout">
-			<xpath expr="//a[@class='navbar-brand logo']" position="after">
-				<div class="navbar-brand fadeshow logo-text">
-					<span style="font-family: 'Prompt', sans-serif; vertical-align: middle;" t-field="res_company.report_header_name"/>
-				</div>
+		<template id="Main Frontend Layout Inherit" inherit_id="website.layout_logo_show">
+			<xpath expr="//header//a[hasclass('navbar-brand')]" position="replace">
+				<a href="/" class="navbar-brand logo">
+					<span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % res_company.name" t-att-title="res_company.name" align="left"/> 
+          <span style="font-family: 'Prompt', sans-serif; vertical-align: middle;" t-field="res_company.report_header_name"/>
+        </a>
 			</xpath>
 		</template>
 	</data>
