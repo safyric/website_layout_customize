@@ -7,10 +7,11 @@
 		</template>
 		
 		<template id="Main Frontend Layout Inherit" inherit_id="portal.frontend_layout">
-			<xpath expr="//div[@class='navbar-header']" position="after">
-				<div class="navbar-brand fadeshow logo-text">
+			<xpath expr="//header//a[hasclass('navbar-brand')]" position="replace">
+				<a href="/" class="navbar-brand logo">
+					<span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % res_company.name" t-att-title="res_company.name" align="left"/> \
 					<span style="font-family: 'Prompt', sans-serif; vertical-align: middle;" t-field="res_company.report_header_name"/>
-				</div>
+				</xpath>	
 			</xpath>
 		</template>
 	</data>
