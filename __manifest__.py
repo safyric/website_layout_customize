@@ -7,7 +7,7 @@
     'website': "https://www.safyric.com",
     'category': 'Tools',
     'version': '0.2',
-    'depends': ['base', 'website'],
+    'depends': ['base', 'web', 'website'],
     'data': [
         'views/website_layout_template.xml',
         'views/res_company_views.xml',
