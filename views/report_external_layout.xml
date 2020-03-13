@@ -1,11 +1,10 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
         <template id="external_layout_background_title" inherit_id="web.external_layout_background">
             <xpath expr="//img" position="after">
                 <div class="float-left">
-                    <span t-field="company.report_header_name" style="font-family:'Prompt', sans-serif; font-size:30px"/>
+                    <span t-field="company.report_header_name" style="font-family:'Prompt', sans-serif; font-size:30px" />
                 </div>
             </xpath>
         </template>
