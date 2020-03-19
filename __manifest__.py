@@ -11,7 +11,6 @@
     'data': [
         'views/website_layout_template.xml',
         'views/res_company_views.xml',
-        'views/report_external_layout.xml',
     ],
     'installable': True,
 }
