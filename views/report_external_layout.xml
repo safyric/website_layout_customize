@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <template id="report.assets.pdf" inherit_id="web.report_assets_pdf">
+        <template id="report_assets_pdf" inherit_id="web.report_assets_pdf">
             <xpath expr="//link[last()]" position="after">
                 <link rel="stylesheet" type="text/css" href="/website_layout_customize/static/src/css/style.css"/>
             </xpath>
