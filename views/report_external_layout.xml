@@ -7,6 +7,15 @@
             </xpath>
         </template>
         <template id="external_layout_background_title" inherit_id="web.external_layout_background">
+            <xpath expr="//header[@class='header']" position="attributes">
+                <attribute name="style">font-family: 'Prompt', sans-serif;</attribute>
+            </xpath>
+            <xpath expr="//header[@class='article']" position="attributes">
+                <attribute name="style">font-family: 'Prompt', sans-serif;</attribute>
+            </xpath>
+            <xpath expr="//header[@class='footer']" position="attributes">
+                <attribute name="style">font-family: 'Prompt', sans-serif;</attribute>
+            </xpath>
             <xpath expr="//img" position="after">
                 <div class="pull-left">
                     <span class="header-title" t-field="company.report_header_name"/>
