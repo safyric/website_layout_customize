@@ -9,7 +9,7 @@
         <template id="external_layout_background_title" inherit_id="web.external_layout_background">
             <xpath expr="//img" position="after">
                 <div class="float-left">
-                    <span style="font-family: 'Prompt';" t-field="res_company.report_header_name"/>
+                    <span t-field="res_company.report_header_name"/>
                 </div>
             </xpath>
         </template>
