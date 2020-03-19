@@ -65,3 +65,10 @@
        url('../fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
+
+header-title {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-size: 50px;
+    vertical-align: middle;
+}
