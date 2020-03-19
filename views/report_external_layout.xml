@@ -10,7 +10,7 @@
             <xpath expr="//div[@class='header']" position="attributes">
                 <attribute name="style">font-family: 'Prompt', sans-serif;</attribute>
             </xpath>
-            <xpath expr="//div[@class='article']" position="attributes">
+            <xpath expr="//div[hasclass('article')]" position="attributes">
                 <attribute name="style">font-family: 'Prompt', sans-serif;</attribute>
             </xpath>
             <xpath expr="//div[@class='footer']" position="attributes">
