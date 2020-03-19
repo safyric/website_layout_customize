@@ -4,7 +4,7 @@
         <template id="external_layout_background_title" inherit_id="web.external_layout_background">
             <xpath expr="//img[@t-if='company.logo']" position="after">
                 <div class="float-left">
-                    <span t-field="company.report_header_name" style="font-family:'Prompt', sans-serif; font-size:30px" />
+                    <span t-field="report_header_name" style="font-family:'Prompt', sans-serif; font-size:30px" />
                 </div>
             </xpath>
         </template>
