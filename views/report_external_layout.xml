@@ -8,8 +8,8 @@
         </template>
         <template id="external_layout_background_title" inherit_id="web.external_layout_background">
             <xpath expr="//img" position="after">
-                <div class="float-left">
-                    <span t-field="res_company.report_header_name"/>
+                <div class="pull-left">
+                    <span t-field="company.report_header_name"/>
                 </div>
             </xpath>
         </template>
