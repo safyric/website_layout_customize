@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="external_layout_background_title" inherit_id="web.external_layout_background">
+            <xpath expr="//img" position="after">
+                <div class="float-left">
+                    <span style="font-family:'Prompt', sans-serif; font-size:30px">S A F Y R I C</span>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
