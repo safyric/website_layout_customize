@@ -7,18 +7,9 @@
             </xpath>
         </template>
         <template id="external_layout_background_title" inherit_id="web.external_layout_background">
-            <xpath expr="//div[@class='header']" position="attributes">
-                <attribute name="style">font-family: 'Prompt', sans-serif;</attribute>
-            </xpath>
-            <xpath expr="//div[hasclass('article')]" position="attributes">
-                <attribute name="style">font-family: 'Prompt', sans-serif;</attribute>
-            </xpath>
-            <xpath expr="//div[hasclass('footer')]" position="attributes">
-                <attribute name="style">font-family: 'Prompt', sans-serif;</attribute>
-            </xpath>
             <xpath expr="//img" position="after">
                 <div class="pull-left">
-                    <span class="header-title" t-field="company.report_header_name"/>
+                    <span style="font-family: 'Prompt', ans-serif; font-size: 30px; whitespace: nowrap;" t-field="company.report_header_name"/>
                 </div>
             </xpath>
         </template>
